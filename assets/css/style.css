@@ -185,6 +185,7 @@ h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -272,12 +273,13 @@ h6 {
   transition: 0.5s;
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 25px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .mobile-nav-toggle {
-    display: block;
+    display:block;
+    margin:0%;
   }
 
   .navbar ul {
@@ -287,7 +289,7 @@ h6 {
 
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
+  overflow:hidden;
   top: 0;
   right: 0;
   left: 0;
@@ -305,7 +307,7 @@ h6 {
 }
 
 .navbar-mobile ul {
-  display: block;
+  display:block;
   position: absolute;
   top: 55px;
   right: 15px;
